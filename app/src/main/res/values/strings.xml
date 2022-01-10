@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UserHub</string>
+
+    <string name="user_name_placeholder">%1$s %2$s</string>
+    <string name="male_text_placeholder">Male</string>
+    <string name="female_text_placeholder">Female</string>
+    <string name="filter_by_gender_placeholder">Filter by gender</string>
+    <string name="name_separator_placeholder">Name</string>
+    <string name="age_title_placeholder">Age</string>
+    <string name="nationality_title_placeholder">Nationality</string>
+    <string name="e_mail_title_placeholder">e-mail</string>
+    <string name="location_title_placeholder">Location</string>
+    <string name="oops_an_error_occurred_try_again_please">Oops, an error occurred!\nTry again please!</string>
+    <string name="ok_placeholder">OK</string>
+    <string name="clear_selection_placeholder">Clear selection</string>
+    <string name="retry_placeholder">Retry</string>
+    <string name="lost_connection_snack_bar_placeholder">Connection lost. Reconnecting…</string>
+    <string name="reconnected_snack_bar_placeholder">Connected</string>
+</resources>

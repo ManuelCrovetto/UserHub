@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/usersOverViewFragment">
+
+    <fragment
+        android:id="@+id/usersOverViewFragment"
+        android:name="com.example.userhub.ui.fragments.UsersOverViewFragment"
+        android:label="UsersOverViewFragment"
+        tools:layout="@layout/users_overview_fragment">
+        <action
+            android:id="@+id/action_usersOverViewFragment_to_userDetailFragment"
+            app:destination="@id/userDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:popUpTo="@id/usersOverViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userDetailFragment"
+        android:name="com.example.userhub.ui.fragments.UserDetailFragment"
+        android:label="UserDetailFragment"
+        tools:layout="@layout/user_detail_fragment">
+        <argument
+            android:name="result"
+            app:argType="com.example.userhub.domain.model.UserInfo" />
+    </fragment>
+</navigation>

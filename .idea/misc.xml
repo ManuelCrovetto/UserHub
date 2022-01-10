@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/drawable/background_white_rounded_8.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/drawable/ic_baseline_chevron_left_24.xml" value="0.578125" />
+        <entry key="app/src/main/res/drawable/ic_users_hub_app_icon.xml" value="0.45" />
+        <entry key="app/src/main/res/drawable/toolbar_shadow.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/drawable/user_header_gradient_color.xml" value="0.3770833333333333" />
+        <entry key="app/src/main/res/drawable/white_top_corners_rounded_8.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.38033635187580855" />
+        <entry key="app/src/main/res/layout/error_dialog.xml" value="0.3609375" />
+        <entry key="app/src/main/res/layout/filter_dialog.xml" value="0.534453781512605" />
+        <entry key="app/src/main/res/layout/user_detail_fragment.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/user_item.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/users_overview_fragment.xml" value="0.4604651162790698" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
